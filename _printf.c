@@ -1,6 +1,6 @@
 #include "main.h"
 
-/* Code Credit : Godswill Aikpitanyi and Ogu Olachi */
+/* Code Credit : Godswill Aikpitanyi */
 /**
  * _printf - prints anything
  * @format: the format string
@@ -52,4 +52,4 @@ int _printf(const char *format, ...)
 	va_end(ap);
 	return (sum);
 }
-/* Code Credit : Godswill Aikpitanyi & Ogu Olachi */
+/* Code Credit : Godswill Aikpitanyi */

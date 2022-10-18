@@ -215,12 +215,11 @@ Code such as \fB_printf(\fIfoo\fB);
 \fR possibly indicates a bug, since 
 \fIfoo\fR may contain a % character.
 
-.SH EXAMPLE To print the address of Holberton School in the form "972 Mission St., San 
-								  Francisco,
-	CA 94103 ", followed by a new line, where \fIstreet\fR, \fIcity\fR, 
-		and \fIstate\fR are pointers to strings :
+.SH EXAMPLE To print the address of Holberton School in the form "972 Mission St., San Francisco,
+CA 94103 ", followed by a new line, where \fIstreet\fR, \fIcity\fR, 
+and \fIstate\fR are pointers to strings :
+.RS
 
-			.RS
 #include "main.h"
 
 	int
@@ -238,8 +237,8 @@ Code such as \fB_printf(\fIfoo\fB);
 }
 .RE
 
-	To print the result of basic mathematical operations prepended by signs and
-		all numbers printed with a minimum precision of two digits :
+To print the result of basic mathematical operations prepended by signs and
+all numbers printed with a minimum precision of two digits :
 
 			.RS
 #include "holberton.h"
@@ -255,11 +254,11 @@ Code such as \fB_printf(\fIfoo\fB);
 }
 .RE
 
-		To print the values of LONG_MAX and LONG_MIN aligned and
-			left -
-	justified with a width of 30 :
+To print the values of LONG_MAX and LONG_MIN aligned and
+left - justified with a width of 30 :
 
-		.RS
+.RS
+
 #include "main.h"
 
 #include <limits.h>
@@ -274,8 +273,7 @@ Code such as \fB_printf(\fIfoo\fB);
 	_printf("%-30ld -> LONG_MIN\\n", LONG_MIN);
 }
 .RE
-
-	.SH SEE ALSO
+.SH SEE ALSO
 		printf(3)
 
 The \fB_printf()\fR function emulates functionality of the C standard library
@@ -284,4 +282,4 @@ man page printf(3)
 
 
 .SH AUTHOR
-Ogu Olachi & Godswill Aikpitanyi
+Godswill Aikpitanyi

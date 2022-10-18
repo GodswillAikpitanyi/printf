@@ -24,3 +24,5 @@ void init_params(params_t *params, va_list ap)
 
 	(void)ap;
 }
+
+/* Code Credit: Godswill Aikpitanyi */
